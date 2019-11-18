@@ -1,5 +1,5 @@
 import React,{Component}   from 'react'; 
-//import Image from '../../components/Image/Image';
+import Slider from '../../components/Slider/Slider';
 import './SliderView.css'
 
 
@@ -12,9 +12,7 @@ class SliderView extends Component{
     render(){
         return(
             <div className="back">
-                <Image>
-                    
-                </Image>
+                <Slider/>
             </div>
         );
     }
