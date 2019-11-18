@@ -1,13 +1,19 @@
 import React from 'react';
 import './App.css';
-import Aux from './hoc/Aux'
-import LoginView from './containers/LoginView/LoginView'
+import LoginView from './containers/LoginView/LoginView';
+import { BrowserRouter, Route,Switch} from "react-router-dom";
 
 function App() {
   return (
-    <Aux>
-      <LoginView></LoginView>
-    </Aux>
+    <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={LoginView} /> {/*Esta es announcements*/}
+          {/*<Route path="/camunda" component={TestBPMN} />*/}
+
+        </Switch>
+    
+    </BrowserRouter>
+  
     
   );
 }
