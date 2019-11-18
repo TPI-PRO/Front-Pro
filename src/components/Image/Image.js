@@ -6,13 +6,12 @@ import Aux from '../../hoc/Aux';
 
 const  Image=(props)=>(
     
-    <Aux>
-        <img src={Logo} alt="Aqui no no hay nada" className="center"/>
-        <div className="container">
-      
-        <img src={Imagen} alt="Aqui no no hay nada" className="earth"/>
-        </div>
-    </Aux>
+   <Aux>
+      <img src={Logo} alt="Aqui no no hay nada" className="center"/>
+      <div className="container">
+         <img src={Imagen} alt="Aqui no no hay nada" className="earth"/>
+      </div>
+   </Aux>
     
 ); 
 
