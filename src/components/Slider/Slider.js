@@ -3,6 +3,7 @@ import React from 'react';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import Aux from '../../hoc/Aux';
+import BeenhereIcon from '@material-ui/icons/Beenhere';
 import consumo from '../../assets/consumo.svg';
 import consumismo from '../../assets/consumismo.svg';
 import earth from '../../assets/earth2.svg';
@@ -18,18 +19,43 @@ import './Slider.css'
 const  Image=(props)=>(
    <Aux>
       <Grid container direction="row">
-         <Grid item md={2} sm={2}>
-            <div className="navbar">
-               hallo
+         <Grid item md={1} sm={1}>
+            <div className="wrap">
+               <div className="navbar">
+                  <Grid container direction="column">
+                     <Grid item xs={12} className="icon" >
+                        <img src={earth} alt="Aqui no no hay nada" className="imageIcon"/>
+                        <p className="textIcon">need image</p>
+                     </Grid>
+                     <Grid item xs={12} className="icon">
+                        <img src={earth} alt="Aqui no no hay nada" className="imageIcon"/>
+                        <p className="textIcon">need image</p>
+                     </Grid>
+                     <Grid item xs={12} className="icon" >
+                        <img src={earth} alt="Aqui no no hay nada" className="imageIcon"/>
+                        <p className="textIcon">need image</p>
+                     </Grid>
+                     <Grid item xs={12} className="icon">
+                        <img src={earth} alt="Aqui no no hay nada" className="imageIcon"/>
+                        <p className="textIcon">need image</p>
+                     </Grid>
+                     <Grid item xs={12} className="icon" >
+                        <img src={earth} alt="Aqui no no hay nada" className="imageIcon"/>
+                        <p className="textIcon">need image</p>
+                     </Grid>
+                  </Grid>
+               </div>
             </div>
+            
          </Grid>
-         <Grid item md={1} sm={1} className="arrow">
+
+         <Grid item md={5} sm={5} className="text">
+            <h3>¿Que quieres aprender hoy?</h3>
             <Fab color="secondary" size={'small'}>
-               <ArrowBackIosIcon/>
             </Fab>
-         
          </Grid>
-         <Grid item md={8} sm={8}>
+         
+         <Grid item md={5} sm={5}>
             <div className="slider">
                <ul>
                   <li><img src={earth} alt="Aqui no no hay nada"  className="image"/></li>
@@ -43,10 +69,6 @@ const  Image=(props)=>(
             
          </Grid>
          <Grid item md={1} sm={1} className="arrow">
-            <Fab color="secondary" size={'small'}>
-               <ArrowForwardIosIcon/>
-            </Fab>   
-            
          </Grid>
       </Grid>
       

@@ -2,16 +2,40 @@
     flex-grow: 1;
 }
 
-.arrow{
+.text{
     text-align: center;
     padding-top: 380px ;
     justify-content: center;
+    color: #ffff;
 }
 
+
+
+/*All for navbar*/
+
+.wrap{
+    background-color: burlywood;
+    border-radius: 0 22px 0 0 ;
+}
 .navbar{
     background-color: green;
-    
+    width: 85%;
+    border-radius: 0 22px 0 0 ;
+    margin-top: 83px;
+    height: 718px;
 }
+
+.imageIcon{
+    height: 70px;
+    width: 70px;
+}
+.icon{
+    padding-top: 35px;
+    color:#ffff;
+    text-align: center;
+}
+.textIcon{font-size: 10px;}
+
 .slider{
     
     width: 100%;
