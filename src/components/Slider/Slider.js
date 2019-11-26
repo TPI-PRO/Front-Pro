@@ -1,11 +1,10 @@
 import React from 'react'; 
 
-import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
-import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+
 import Aux from '../../hoc/Aux';
-import BeenhereIcon from '@material-ui/icons/Beenhere';
 import consumo from '../../assets/consumo.svg';
 import consumismo from '../../assets/consumismo.svg';
+import informacion from '../../assets/icono.svg';
 import earth from '../../assets/earth2.svg';
 import Fab from '@material-ui/core/Fab';
 import falsos from '../../assets/falsos.svg';
@@ -24,7 +23,7 @@ const  Image=(props)=>(
                <div className="navbar">
                   <Grid container direction="column">
                      <Grid item xs={12} className="icon" >
-                        <img src={earth} alt="Aqui no no hay nada" className="imageIcon"/>
+                        <img src={informacion} alt="Aqui no no hay nada" className="imageIcon"/>
                         <p className="textIcon">need image</p>
                      </Grid>
                      <Grid item xs={12} className="icon">
