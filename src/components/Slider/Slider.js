@@ -1,7 +1,5 @@
 import React from 'react'; 
 
-
-import Aux from '../../hoc/Aux';
 import consumo from '../../assets/consumo.svg';
 import consumismo from '../../assets/consumismo.svg';
 import informacion from '../../assets/icono.svg';
@@ -16,7 +14,7 @@ import './Slider.css'
 
 
 const  Image=(props)=>(
-   <Aux>
+   <div>
       <Grid container direction="row">
          <Grid item md={1} sm={1}>
             <div className="wrap">
@@ -72,7 +70,7 @@ const  Image=(props)=>(
       </Grid>
       
       
-   </Aux>
+   </div>
     
 ); 
 
