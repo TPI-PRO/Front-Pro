@@ -1,77 +1,60 @@
 import React from 'react'; 
-
-import consumo from '../../assets/consumo.svg';
-import consumismo from '../../assets/consumismo.svg';
-import informacion from '../../assets/icono.svg';
-import earth from '../../assets/earth2.svg';
-import Fab from '@material-ui/core/Fab';
-import falsos from '../../assets/falsos.svg';
-import Grid from '@material-ui/core/Grid';
-
-import postconsumo from '../../assets/postconsumo.svg';
-import responsable from '../../assets/responsable.svg';
 import './Slider.css'
+
+import consumo from '../../assets/consumo2.svg';
+import consumismo from '../../assets/consumismo2.svg';
+import earth from '../../assets/earth5.svg';
+import falsos from '../../assets/falsos2.svg';
+import postconsumo from '../../assets/postconsumo2.svg';
+import responsable from '../../assets/responsable2.svg';
+import { Grid } from '@material-ui/core';
+
 
 
 const  Image=(props)=>(
-   <div>
-      <Grid container direction="row">
-         <Grid item md={1} sm={1}>
-            <div className="wrap">
-               <div className="navbar">
-                  <Grid container direction="column">
-                     <Grid item xs={12} className="icon" >
-                        <img src={informacion} alt="Aqui no no hay nada" className="imageIcon"/>
-                        <p className="textIcon">need image</p>
-                     </Grid>
-                     <Grid item xs={12} className="icon">
-                        <img src={earth} alt="Aqui no no hay nada" className="imageIcon"/>
-                        <p className="textIcon">need image</p>
-                     </Grid>
-                     <Grid item xs={12} className="icon" >
-                        <img src={earth} alt="Aqui no no hay nada" className="imageIcon"/>
-                        <p className="textIcon">need image</p>
-                     </Grid>
-                     <Grid item xs={12} className="icon">
-                        <img src={earth} alt="Aqui no no hay nada" className="imageIcon"/>
-                        <p className="textIcon">need image</p>
-                     </Grid>
-                     <Grid item xs={12} className="icon" >
-                        <img src={earth} alt="Aqui no no hay nada" className="imageIcon"/>
-                        <p className="textIcon">need image</p>
-                     </Grid>
-                  </Grid>
-               </div>
-            </div>
-            
-         </Grid>
-
-         <Grid item md={5} sm={5} className="text">
-            <h3>¿Que quieres aprender hoy?</h3>
-            <Fab color="secondary" size={'small'}>
-            </Fab>
-         </Grid>
-         
-         <Grid item md={5} sm={5}>
-            <div className="slider">
-               <ul>
-                  <li><img src={earth} alt="Aqui no no hay nada"  className="image"/></li>
-                  <li><img src={consumo} alt="Aqui no no hay nada" className="image"/></li>
-                  <li><img src={consumismo} alt="Aqui no no hay nada" className="image"/></li>
-                  <li><img src={responsable} alt="Aqui no no hay nada" className="image"/></li>
-                  <li><img src={falsos} alt="Aqui no no hay nada" className="image"/></li>
-                  <li><img src={postconsumo} alt="Aqui no no hay nada" className="image"/></li>
-               </ul>
-            </div>
-            
-         </Grid>
-         <Grid item md={1} sm={1} className="arrow">
-         </Grid>
+   <div className="container">
+      
+      <input type="radio" name="images" id="i1" checked/>
+      <input type="radio" name="images" id="i2"/>
+      <input type="radio" name="images" id="i3"/>
+      <input type="radio" name="images" id="i4"/>
+      <input type="radio" name="images" id="i5"/>
+      <input type="radio" name="images" id="i6"/>
+      
+      <Grid item className="slide-img" id="one">
+         <img src={earth} alt="one"></img>
       </Grid>
       
+      <Grid item className="slide-img" id="two">
+         <img src={consumo} alt="two"></img>
+      </Grid>
+
+      <Grid item className="slide-img" id="three">
+         <img src={consumismo} alt="two"></img>
+      </Grid>
+      
+      <Grid item className="slide-img" id="four">
+         <img src={falsos} alt="two"></img>
+      </Grid>
+
+      <Grid item className="slide-img" id="five">
+         <img src={responsable} alt="two"></img>
+      </Grid>
+      
+      <Grid item className="slide-img" id="six">
+         <img src={postconsumo} alt="two"></img>
+      </Grid>
+
+      <div className="nav">
+         <label className="dots" id="dot1" for="i1"></label>
+         <label className="dots" id="dot2" for="i2"></label>
+         <label className="dots" id="dot3" for="i3"></label>
+         <label className="dots" id="dot4" for="i4"></label>
+         <label className="dots" id="dot5" for="i5"></label>
+         <label className="dots" id="dot6" for="i6"></label>
+      </div>
       
    </div>
-    
 ); 
 
 export default  Image;

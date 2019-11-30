@@ -1,0 +1,18 @@
+.questions{
+    padding-top: 105px;
+    
+}
+/*change the square properties*/
+.square-div{
+    height: 80px;
+    width: 80px;
+    background-color: #97bffc;
+    border-radius: 15px ;
+    /*margin-left: 75px;*/
+}
+/*change the properties text down the squares*/
+.square{
+    font-family: Lucida;
+    font-size: 22px;
+    color: #4ee66c;
+}

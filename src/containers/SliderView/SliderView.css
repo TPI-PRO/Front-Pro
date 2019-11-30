@@ -1,0 +1,34 @@
+.root{
+    flex-grow: 1;
+}
+
+/* questions*/
+.text{
+    font-family: Lucida;
+    width: 400px;
+    font-size: 40px;
+    padding-top: 280px ;
+    /*margin-left: 105px;*/
+    color: #ceeabe;;
+}
+
+
+
+/*All for navbar*/
+
+.wrap{
+    background-color: burlywood;
+    border-radius: 0 22px 0 0 ;
+}
+
+
+.imageIcon{
+    height: 70px;
+    width: 70px;
+}
+.icon{
+    padding-top: 35px;
+    color:#ffff;
+    text-align: center;
+}
+.textIcon{font-size: 10px;}
