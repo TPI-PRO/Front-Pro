@@ -3,14 +3,17 @@
 }
 
 /* questions*/
+.title{
+    color: #ceeabe;
+    font-family: Lucida;
+}
 .text{
     font-family: Lucida;
-    width: 420px;
-    margin-left:150px ;
-    font-size: 40px;
+    width: 520px;
+    font-size: 30px;
     padding-top: 280px ;
     /*margin-left: 105px;*/
-    color: #ceeabe;
+    color: black;
 }
 
 
@@ -23,5 +26,3 @@
     background-color: #83bf82;
     border-radius: 0 22px 0 0 ;
 }
-
-

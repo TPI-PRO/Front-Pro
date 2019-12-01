@@ -2,6 +2,13 @@
     background-color: green;
     width: 85%;
     border-radius: 0 22px 0 0 ;
-    margin-top: 83px;
-    height: 718px;
+    margin-top: 40px;
+    height: 680px;
 }
+
+.icon{
+    padding-top: 40px;
+    color:#ffff;
+    text-align: center;
+}
+.textIcon{font-size: 10px;}
