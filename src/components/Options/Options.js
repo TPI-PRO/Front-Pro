@@ -13,7 +13,7 @@ class Options extends Component{
 
     render(){
         return(
-            <Grid container direction={"column"} className="container">
+            <Grid container direction={"column"} className="containerOpt">
                 <Grid item xs={4} md={4} className="square" align="center">
                     <div id="hallo">
                         <a id="button" href="google.com">Escuchar</a>

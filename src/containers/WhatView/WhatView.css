@@ -7,10 +7,11 @@
     color: #ceeabe;
     font-family: Lucida;
 }
-.text{
+.textW{
     font-family: Lucida;
     width: 520px;
     font-size: 30px;
+    margin-left: 50px;
     padding-top: 280px ;
     /*margin-left: 105px;*/
     color: black;

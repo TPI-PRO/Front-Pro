@@ -27,7 +27,7 @@ class WhatView extends Component{
 
                 <Grid item xs={false} sm={0} md={5} align="left">
                     
-                    <div className="text">
+                    <div className="textW">
                         <div className="title">
                             <h3>QUÉ ES</h3>
                         </div>
