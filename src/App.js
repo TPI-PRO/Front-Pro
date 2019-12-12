@@ -5,6 +5,8 @@ import { BrowserRouter, Route,Switch} from "react-router-dom";
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import SliderView from './containers/SliderView/SliderView';
 import WhatView from './containers/WhatView/WhatView';
+import WhoView from './containers/WhoView/WhoView';
+import WhyView from './containers/WhyView/WhyView';
 
 const theme = createMuiTheme({
     palette: { secondary: {main: '#078005'}, primary: {main: '#83bf82'}}
@@ -18,6 +20,8 @@ function App() {
                     <Route exact path="/" component={LoginView} /> {/*Esta es announcements*/}
                     <Route path="/slide" component={SliderView} />
                     <Route path="/what" component={WhatView}/>
+                    <Route path="/who" component={WhoView}/>
+                    <Route path="/why" component={WhyView}/>
                 </Switch>
             </BrowserRouter>
         </MuiThemeProvider>

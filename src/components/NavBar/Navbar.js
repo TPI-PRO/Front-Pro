@@ -10,11 +10,18 @@ import HelpOutlineOutlinedIcon from '@material-ui/icons/HelpOutlineOutlined';
 import Grid from '@material-ui/core/Grid';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
+import { withRouter } from 'react-router-dom';
 
 class NavBar extends Component{
 
-    state={
-
+    constructor(props) {
+        super(props)
+        this.change = this.change.bind(this);
+    }
+    
+    change(){
+        console.log("hallo")
+        this.props.history.push("/slide")
     }
 
     render(){
@@ -23,14 +30,14 @@ class NavBar extends Component{
                 <Grid container direction="column">
                     <Grid item xs={12} className="icon" align="center">
                         <Fab color="secondary" size={'large'}>
-                            <AccountBoxIcon fontSize={'large'}/>    
+                            <AccountBoxIcon fontSize={'large'} />    
                         </Fab>
                         <p className="textIcon">Mi perfil</p>
                     </Grid>
 
                     <Grid item xs={12} className="icon" align="center">
-                        <Fab color="secondary" size={'large'}>
-                            <BlurCircularIcon fontSize={'large'}/>        
+                        <Fab color="secondary" size={'large'} onClick={this.change}>
+                            <BlurCircularIcon fontSize={'large'} />        
                         </Fab>
                         <p className="textIcon">Menu</p>
                     </Grid>
@@ -63,4 +70,4 @@ class NavBar extends Component{
     }
 }
 
-export default NavBar;
+export default withRouter(NavBar);

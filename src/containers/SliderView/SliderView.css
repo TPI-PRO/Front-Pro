@@ -13,7 +13,9 @@
     color: #ceeabe;
 }
 
-
+.button{
+    padding-top: 120px ;
+}
 
 /*All for navbar*/
 .title{
@@ -23,5 +25,6 @@
     background-color: #83bf82;
     border-radius: 0 22px 0 0 ;
 }
+
 
 

@@ -2,18 +2,27 @@ import React,{Component}   from 'react';
 import './SliderView.css'
 
 /*import Square from '../../components/Square/Square';*/
+import Fab from '@material-ui/core/Fab';
 import Grid from '@material-ui/core/Grid';
 import icono from '../../assets/icono.svg';
 import Navbar from '../../components/NavBar/Navbar'
 import Slider from '../../components/Slider/Slider';
+import SpaIcon from '@material-ui/icons/Spa';
 
 
 
 
 class SliderView extends Component{
 
-    state={
-
+    constructor(props) {
+        super(props)
+        this.state = {
+        }
+        this.change = this.change.bind(this);
+    }
+    change(){
+        console.log("hallo")
+        this.props.history.push("/what")
     }
 
     render(){
@@ -31,8 +40,15 @@ class SliderView extends Component{
                         ¿Que quieres aprender hoy?
                     </div>
                 </Grid>
-                
-                <Grid item xs={11} sm={11} md={6} align="center"><Slider/></Grid>
+                    
+                <Grid item xs={11} sm={11} md={6} align="center" >
+                    <div className="button">
+                        <Fab color="inherit" size={'small'}>
+                            <SpaIcon color="primary" onClick={this.change}/>
+                        </Fab>
+                    </div>
+                    <Slider/>
+                </Grid>
             </Grid>
         );
     }

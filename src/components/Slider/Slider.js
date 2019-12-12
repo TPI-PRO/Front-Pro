@@ -21,10 +21,8 @@ class Slider extends Component{
       }
       this.change = this.change.bind(this);
    }
-   change(){
-      console.log("hallo")
-      this.props.history.push("/")
-   }
+
+   change(){this.props.history.push("/")}
 
    render(){
       return (
@@ -33,7 +31,7 @@ class Slider extends Component{
             <input type="radio" name="images" id="i2"/>
             <input type="radio" name="images" id="i3"/>
             <input type="radio" name="images" id="i4"/>
-            <input type="radio" name="images" id="i5"/>
+            <input type="radio" name="images" id="i5" />
             <input type="radio" name="images" id="i6"/>
             
             <Grid item className="slide-img" id="one">
@@ -41,68 +39,26 @@ class Slider extends Component{
             </Grid>
             
             <Grid item className="slide-img" id="two" direction={"column"}>
-               <Grid item>
-                  <div className="button">
-                     <Fab color="inherit" size={'small'}>
-                        <SpaIcon color="primary" onClick={this.click}/>
-                     </Fab>
-                  </div>
-               </Grid>
-               <Grid item>
-                  <img src={consumo} alt="two"></img>
-               </Grid>
+               <img src={consumo} alt="two"></img>
             </Grid>
 
             <Grid item className="slide-img" id="three">
-               <Grid item>
-                  <div className="button">
-                     <Fab color="inherit" size={'small'}>
-                        <SpaIcon color="primary" onClick={this.click}/>
-                     </Fab>
-                  </div>
-               </Grid>
+               
                <Grid item>
                   <img src={consumismo} alt="two"></img>
                </Grid>
             </Grid>
             
             <Grid item className="slide-img" id="four">
-               <Grid item>
-                  <div className="button">
-                     <Fab color="inherit" size={'small'}>
-                        <SpaIcon color="primary" onClick={this.click}/>
-                     </Fab>
-                  </div>
-               </Grid>
-               <Grid item>
-                  <img src={falsos} alt="two"></img>
-               </Grid>
+               <img src={falsos} alt="two"></img>
             </Grid>
 
             <Grid item className="slide-img" id="five">
-               <Grid item>
-                  <div className="button">
-                     <Fab color="inherit" size={'small'}>
-                        <SpaIcon color="primary" onClick={this.click}/>
-                     </Fab>
-                  </div>
-               </Grid>
-               <Grid item>
-                  <img src={responsable} alt="two"></img>
-               </Grid>
+               <img src={responsable} alt="two"></img>
             </Grid>
             
             <Grid item className="slide-img" id="six">
-               <Grid item>
-                  <div className="button">
-                     <Fab color="inherit" size={'small'}>
-                        <SpaIcon color="primary" onClick={this.click}/>
-                     </Fab>
-                  </div>
-               </Grid>
-               <Grid item>
-                  <img src={postconsumo} alt="two"></img>
-               </Grid>
+               <img src={postconsumo} alt="two"></img>
             </Grid>
             
             <div className="nav">

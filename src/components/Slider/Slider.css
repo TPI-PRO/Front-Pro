@@ -1,11 +1,8 @@
 
 
-.button{
-    margin-bottom: -30px ;
-}
+
 .container{
     margin: 0 auto;
-    margin-top: 150px;
     position: relative;
     padding-bottom: 40%;
     
@@ -76,7 +73,7 @@
 #i3:checked ~ #five, #i5:checked ~ #three{opacity: 0; z-index: 9}
 #i3:checked ~ #six, #i6:checked ~ #three{opacity: 0; z-index: 9}
 
-#i4:checked ~ #five, #i6:checked ~ #four{opacity: 0; z-index: 9}
+#i4:checked ~ #five, #i5:checked ~ #four{opacity: 0; z-index: 9}
 #i4:checked ~ #six, #i6:checked ~ #four{opacity: 0; z-index: 9}
 
 #i5:checked ~ #six, #i6:checked ~ #five{opacity: 0; z-index: 9}
