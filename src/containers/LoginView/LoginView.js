@@ -11,9 +11,8 @@ class LoginView extends Component{
     render(){
         return(
             <div className="back">
-                <Image>
-                    
-                </Image>
+                <div ><h1 className="main-title">ECO</h1></div>
+                <div ><h2 className="sub-title">CONCIENCIA</h2></div>
             </div>
         );
     }

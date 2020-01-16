@@ -1,0 +1,20 @@
+.back{
+    background-image: url("../../assets/fondo.svg");
+    background-repeat: no-repeat;
+    height: 740px;
+    margin-top: -120px;
+
+}
+.main-title {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 180px;
+    
+}
+.sub-title{
+    color: #ffffff;
+    text-align: center;
+    font-size: 55px;
+    margin-top: -150px;
+}
