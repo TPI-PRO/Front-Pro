@@ -14,16 +14,19 @@
 }
 
 .button{
-    padding-top: 120px ;
+    padding-top: 100px ;
 }
 
 /*All for navbar*/
-.title{
-    padding-top: 2px;
+.title {
+    padding-top: 100px;
+    height: 70px;
 }
 .wrap{
     background-color: #83bf82;
     border-radius: 0 22px 0 0 ;
+    width: 90px;
+    height: 680px;
 }
 
 

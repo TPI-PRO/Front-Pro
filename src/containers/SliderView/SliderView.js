@@ -28,7 +28,6 @@ class SliderView extends Component{
     render(){
         return(
             <Grid container direction="row">
-                
                 <Grid item xs={1} sm={1} md={1}>
                     <div className="title"><img src={icono} alt="hallo"></img></div>
                     <div className="wrap"><Navbar/></div>
@@ -41,7 +40,7 @@ class SliderView extends Component{
                     </div>
                 </Grid>
                     
-                <Grid item xs={11} sm={11} md={6} align="center" >
+                <Grid item xs={11} sm={10} md={6} align="center" >
                     <div className="button">
                         <Fab color="inherit" size={'small'}>
                             <SpaIcon color="primary" onClick={this.change}/>

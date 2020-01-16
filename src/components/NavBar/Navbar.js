@@ -41,30 +41,30 @@ class NavBar extends Component{
 
                     <Grid item xs={12} className="icon" align="center">
                         <Fab color="secondary" size={'large'} onClick={this.change}>
-                            <img src={Menu} />
+                            <img src={Menu} alt="menu"/>
                         </Fab>
                         <p className="textIcon">Menu</p>
                     </Grid>
 
                     <Grid item xs={12} className="icon" align="center">
                         <Fab color="secondary" size={'large'}>
-                            <img src={Blog}/>      
+                            <img src={Blog} alt="blog"/>      
                         </Fab>
                         <p className="textIcon">Blog</p>
                     </Grid>
 
                     <Grid item xs={12} className="icon" align="center">
                         <Fab color="secondary" size={'large'}>
-                            <img src={Nosotros}/>      
+                            <img src={Nosotros} alt="nosotros"/>      
                         </Fab>
-                        <p className="textIcon">Actividades</p>
+                        <p className="textIcon">Sobre Nosotros</p>
                     </Grid>
 
                     <Grid item xs={12} className="icon" align="center">
                         <Fab color="secondary" size={'large'}>
-                           <img src={Informacion} />
+                           <img src={Informacion} alt="info" />
                         </Fab>
-                        <p className="textIcon">Salir</p>
+                        <p className="textIcon">Información</p>
                     </Grid>
 
                     <Grid item xs={12} className="icon" align="center">

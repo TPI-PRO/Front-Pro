@@ -13,24 +13,22 @@ class Options extends Component{
 
     render(){
         return(
-            <Grid container direction={"column"} className="containerOpt">
+            <Grid container direction={"column"} className="containerOpt" align="left">
                 <Grid item xs={4} md={4} className="square" align="center">
                     <div id="hallo">
-                        <a id="button" href="google.com">Escuchar</a>
+                        <a id="button" href="google.com">Consumidor</a>
+                    </div>
+                </Grid>
+                <Grid item xs={4} md={4} className="square" align="center">
+                    <div id="hallo">
+                        <a id="button" href="facebook.com">Areas</a>
                     </div>
                     
                 </Grid>
                 <Grid item xs={4} md={4} className="square" align="center">
                     <div id="hallo">
-                        <a id="button" href="facebook.com">ver</a>
+                        <a id="button" href="hallo.com">Tipos de compra</a>
                     </div>
-                    
-                </Grid>
-                <Grid item xs={4} md={4} className="square" align="center">
-                    <div id="hallo">
-                        <a id="button" href="hallo.com">Compartir</a>
-                    </div>
-                    
                 </Grid>
             </Grid>
         );

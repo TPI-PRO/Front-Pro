@@ -31,9 +31,12 @@ class WhoView extends Component{
                         <div className="title">
                             <h3>CÓMO</h3>
                         </div>
-                        Los factores que fomentan el consumo
-                        surgen principalmente de las diferentes
-                        necesidades (fisiológicas, sociales)
+                        <div className="text-under">
+                            Los factores que fomentan el consumo
+                            surgen principalmente de las diferentes
+                            necesidades (fisiológicas, sociales)
+                        </div>
+                        
                     </div>
                 </Grid>
                 

@@ -21,20 +21,22 @@ class WhatView extends Component{
             <Grid container direction="row">
                 
                 <Grid item xs={1} sm={1} md={1}>
-                    <div className="title"><img src={icono} alt="hallo"></img></div>
+                    <div className="title-nav"><img src={icono} alt="hallo"></img></div>
                     <div className="wrap"><Navbar/></div>
                 </Grid>
 
                 <Grid item xs={false} sm={0} md={5} align="left">
                     
-                    <div className="textW">
+                    <div className="textWhat">
                         <div className="title">
                             <h3>QUÉ ES</h3>
                         </div>
-                        Satisfacer las necesidades primarias
-                        de los seres humanos a través de la
-                        utilización de recursos, bienes , servicios
-                        y productos.
+                        <div className="textWhat-under">
+                            Satisfacer las necesidades primarias
+                            de los seres humanos a través de la
+                            utilización de recursos, bienes , servicios
+                            y productos.
+                        </div>
                     </div>
                 </Grid>
                 

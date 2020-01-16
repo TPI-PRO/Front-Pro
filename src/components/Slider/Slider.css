@@ -1,12 +1,8 @@
-
-
-
 .container{
     margin: 0 auto;
     position: relative;
-    padding-bottom: 40%;
-    
 }
+
 .slide-img{
     position: absolute;
     width: 100%;
