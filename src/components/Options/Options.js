@@ -1,8 +1,6 @@
 import React,{Component}   from 'react'; 
 import './Options.css'
 
-
-import Fab from '@material-ui/core/Fab';
 import Grid from '@material-ui/core/Grid';
 
 class Options extends Component{

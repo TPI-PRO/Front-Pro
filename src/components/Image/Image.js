@@ -12,10 +12,10 @@ const  Image=(props)=>(
       <Grid container>
          <Grid item xs={6}>
             <img src={Logo} alt="Aqui no no hay nada" className="center"/>
-        </Grid>
-        <Grid item xs={6}>
+         </Grid>
+         <Grid item xs={6}>
             <img src={Imagen} alt="Aqui no no hay nada" className="earth"/> 
-        </Grid>
+         </Grid>
       </Grid>
    </div>
     
