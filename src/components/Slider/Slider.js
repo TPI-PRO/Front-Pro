@@ -1,16 +1,16 @@
 import React,{Component} from 'react'; 
 import './Slider.css'
 
-import consumo from '../../assets/consumo2.svg';
-import consumismo from '../../assets/consumismo2.svg';
+import consumo from '../../assets/ConsumoN.svg';
+import consumismo from '../../assets/ConsumismoN.svg';
 import earth from '../../assets/earth5.svg';
-import Fab from '@material-ui/core/Fab';
-import falsos from '../../assets/falsos2.svg';
+
+import falsos from '../../assets/FalsosN.svg';
 import { Grid } from '@material-ui/core';
 import { Link,withRouter } from 'react-router-dom';
-import postconsumo from '../../assets/postconsumo2.svg';
-import responsable from '../../assets/responsable2.svg';
-import SpaIcon from '@material-ui/icons/Spa';
+import postconsumo from '../../assets/Post consumoN.svg';
+import responsable from '../../assets/HábitosN.svg';
+
 
 
 

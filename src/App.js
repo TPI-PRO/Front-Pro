@@ -6,7 +6,7 @@ import { BrowserRouter, Route,Switch} from "react-router-dom";
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import RegisterView from './containers/RegisterView/RegisterView'
 import SliderView from './containers/SliderView/SliderView';
-import WhatView from './containers/WhatView/WhatView';
+import WhatView from './containers/WhatView-Consumismo/WhatView';
 import WhoView from './containers/WhoView/WhoView';
 import WhyView from './containers/WhyView/WhyView';
 
