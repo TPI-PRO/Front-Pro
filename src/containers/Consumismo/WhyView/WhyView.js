@@ -3,9 +3,9 @@ import './WhyView.css'
 
 /*import Square from '../../components/Square/Square';*/
 import Grid from '@material-ui/core/Grid';
-import icono from '../../assets/icono.svg';
-import Navbar from '../../components/NavBar/Navbar'
-import Options from '../../components/Options/Options'
+import icono from '../../../assets/icono.svg';
+import Navbar from '../../../components/NavBar/Navbar'
+import Options from '../../../components/Options/Options'
 
 
 

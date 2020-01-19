@@ -1,0 +1,35 @@
+.init_image{
+    margin-top: 140px;
+    padding-left: 60px;
+    height: 485px;
+    width: 480px;
+}
+.init_button{
+    background-color: red;
+    margin-top: 15px;
+    margin-left: 140px;
+    width: 80px;
+    border-radius: 15px;
+    height: 80px;
+}
+
+.init_logo{
+    margin-top: 18px;
+    margin-left: 8px;
+}
+.init_text2{
+    font-family: Lucida;
+    width: 420px;
+    margin-left:140px ;
+    font-size: 40px;
+    padding-top: 10px ;
+    color: #ceeabe;
+}
+.init_text{
+    font-family: Lucida;
+    width: 420px;
+    margin-left:150px ;
+    font-size: 40px;
+    padding-top: 280px ;
+    color: #ceeabe;
+}

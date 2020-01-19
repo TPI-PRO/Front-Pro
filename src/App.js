@@ -6,9 +6,10 @@ import { BrowserRouter, Route,Switch} from "react-router-dom";
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import RegisterView from './containers/RegisterView/RegisterView'
 import SliderView from './containers/SliderView/SliderView';
-import WhatView from './containers/WhatView-Consumismo/WhatView';
-import WhoView from './containers/WhoView/WhoView';
-import WhyView from './containers/WhyView/WhyView';
+import Consumismo_init from './containers/Consumismo/InitView/InitView';
+import Consumismo_what from './containers/Consumismo/WhatView/WhatView';
+import Consumismo_who from './containers/Consumismo/WhoView/WhoView';
+import Consumismo_why from './containers/Consumismo/WhyView/WhyView';
 
 const theme = createMuiTheme({
     palette: { secondary: {main: '#078005'}, primary: {main: '#83bf82'}}
@@ -23,9 +24,10 @@ function App() {
                     <Route exact path="/login" component={LoginView} /> {/*Esta es announcements*/}
                     <Route exact path="/register" component={RegisterView} /> 
                     <Route path="/slide" component={SliderView} />
-                    <Route path="/what" component={WhatView}/>
-                    <Route path="/who" component={WhoView}/>
-                    <Route path="/why" component={WhyView}/>
+                    <Route path="/consumismo_init" component={Consumismo_init}/>
+                    <Route path="/consumismo_what" component={Consumismo_what}/>
+                    <Route path="/who" component={Consumismo_who}/>
+                    <Route path="/why" component={Consumismo_why}/>
                 </Switch>
             </BrowserRouter>
         </MuiThemeProvider>

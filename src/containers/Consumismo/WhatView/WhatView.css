@@ -3,18 +3,19 @@
 }
 
 /* questions*/
-.title{
-    color: #ceeabe;
+.what_title{
+    color: #078005;
     font-family: Lucida;
     font-size: 42px;
 }
-.textWhat-under{
+.what-text_2{
     padding-top: 80px ;
 }
 
-.textWhat{
+.what-text{
     font-family: Lucida;
-    width: 520px;
+    width: 580px;
+    text-align: left;
     font-size: 30px;
     margin-left: 50px;
     padding-top: 120px ;

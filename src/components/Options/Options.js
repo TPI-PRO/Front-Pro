@@ -14,18 +14,18 @@ class Options extends Component{
             <Grid container direction={"column"} className="containerOpt" align="left">
                 <Grid item xs={4} md={4} className="square" align="center">
                     <div id="hallo">
-                        <a id="button" href="google.com">Consumidor</a>
+                        <a id="button" href="google.com">Problemáticas</a>
                     </div>
                 </Grid>
                 <Grid item xs={4} md={4} className="square" align="center">
                     <div id="hallo">
-                        <a id="button" href="facebook.com">Areas</a>
+                        <a id="button" href="facebook.com">Causas</a>
                     </div>
                     
                 </Grid>
                 <Grid item xs={4} md={4} className="square" align="center">
                     <div id="hallo">
-                        <a id="button" href="hallo.com">Tipos de compra</a>
+                        <a id="button" href="hallo.com">Aumento y Disminución</a>
                     </div>
                 </Grid>
             </Grid>

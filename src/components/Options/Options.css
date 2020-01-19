@@ -5,20 +5,20 @@
 
 #hallo{
     height: 50px;
-    width: 250px;
-    background-color:#03a1fc;
+    width: 270px;
+    background-color:#d9403d;
     border-radius: 22px 22px 0 22px ;
 }
 #button {
-    font-size: 30px;
+    font-size: 20px;
+    border-radius: 22px 22px 0 22px ;
     margin-top: 100px ;
-    background-color: #03a1fc;
     color: white;
     display: block;
-    height: 40px;
+    height: 50px;
     line-height: 40px;
     text-decoration: none;
-    width: 100px;
+    width: 270px;
     
     
 }

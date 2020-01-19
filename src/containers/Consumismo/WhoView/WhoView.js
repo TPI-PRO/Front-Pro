@@ -1,16 +1,16 @@
 import React,{Component}   from 'react'; 
-import './WhatView.css'
+import './WhoView.css'
 
 /*import Square from '../../components/Square/Square';*/
 import Grid from '@material-ui/core/Grid';
-import icono from '../../assets/icono.svg';
-import Navbar from '../../components/NavBar/Navbar'
-import Options from '../../components/Options/Options'
+import icono from '../../../assets/icono.svg';
+import Navbar from '../../../components/NavBar/Navbar'
+import Options from '../../../components/Options/Options'
 
 
 
 
-class WhatView extends Component{
+class WhoView extends Component{
 
     state={
 
@@ -21,22 +21,22 @@ class WhatView extends Component{
             <Grid container direction="row">
                 
                 <Grid item xs={1} sm={1} md={1}>
-                    <div className="title-nav"><img src={icono} alt="hallo"></img></div>
+                    <div className="title"><img src={icono} alt="hallo"></img></div>
                     <div className="wrap"><Navbar/></div>
                 </Grid>
 
                 <Grid item xs={false} sm={0} md={5} align="left">
                     
-                    <div className="textWhat">
+                    <div className="textW">
                         <div className="title">
-                            <h3>QUÉ ES</h3>
+                            <h3>CÓMO</h3>
                         </div>
-                        <div className="textWhat-under">
-                            Satisfacer las necesidades primarias
-                            de los seres humanos a través de la
-                            utilización de recursos, bienes , servicios
-                            y productos.
+                        <div className="text-under">
+                            Los factores que fomentan el consumo
+                            surgen principalmente de las diferentes
+                            necesidades (fisiológicas, sociales)
                         </div>
+                        
                     </div>
                 </Grid>
                 
@@ -48,4 +48,4 @@ class WhatView extends Component{
     }
 }
 
-export default WhatView ;
+export default WhoView ;
