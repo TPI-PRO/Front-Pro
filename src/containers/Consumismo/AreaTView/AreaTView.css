@@ -1,0 +1,42 @@
+.areas_img{
+    background-color:#d9403d;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 170px;
+}
+
+.areaT_title{
+    text-align: center;
+    font-size: 40px;
+    color: #078005;
+    width: 600px;
+
+}
+.areaT-text{
+    font-family: Lucida;
+    width: 600px;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 70px;
+    /*margin-left: 105px;*/
+    color: black;
+}
+
+.areaT_subtitle{
+    text-align: center;
+    font-size: 38px;
+    margin-top: -30px;
+    color: #078005;
+}
+
+.areaT_icon{
+    margin-top: 420px;
+    margin-left: 280px;
+    text-align: center;
+    background-color: #d9403d;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}

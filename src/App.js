@@ -6,8 +6,15 @@ import { BrowserRouter, Route,Switch} from "react-router-dom";
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import RegisterView from './containers/RegisterView/RegisterView'
 import SliderView from './containers/SliderView/SliderView';
+
 import Consumismo_init from './containers/Consumismo/InitView/InitView';
 import Consumismo_what from './containers/Consumismo/WhatView/WhatView';
+import Consumismo_problem from './containers/Consumismo/ProblemView/ProblemView'
+import Consumismo_areat from './containers/Consumismo/AreaTView/AreaTView'
+import Consumismo_areaG from './containers/Consumismo/AreaGView/AreaGView'
+import Consumismo_areaP from './containers/Consumismo/AreaPView/AreaPView'
+import Consumismo_areaN from './containers/Consumismo/AreaNView/AreaNView'
+import Consumismo_areaTE from './containers/Consumismo/AreaTEView/AreaTEView'
 import Consumismo_who from './containers/Consumismo/WhoView/WhoView';
 import Consumismo_why from './containers/Consumismo/WhyView/WhyView';
 
@@ -26,6 +33,12 @@ function App() {
                     <Route path="/slide" component={SliderView} />
                     <Route path="/consumismo_init" component={Consumismo_init}/>
                     <Route path="/consumismo_what" component={Consumismo_what}/>
+                    <Route path="/consumismo_problem" component={Consumismo_problem}/>
+                    <Route path="/consumismo_areaT" component={Consumismo_areat}/>
+                    <Route path="/consumismo_areaTE" component={Consumismo_areaTE}/>
+                    <Route path="/consumismo_areaG" component={Consumismo_areaG}/>
+                    <Route path="/consumismo_areaN" component={Consumismo_areaN}/>
+                    <Route path="/consumismo_areaP" component={Consumismo_areaP}/>
                     <Route path="/who" component={Consumismo_who}/>
                     <Route path="/why" component={Consumismo_why}/>
                 </Switch>

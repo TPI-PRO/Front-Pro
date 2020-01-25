@@ -1,7 +1,5 @@
 import React,{Component}   from 'react';
 
-
-import Fab from '@material-ui/core/Fab';
 import {Grid} from '@material-ui/core';
 import icono from '../../../assets/icono.svg';
 import image from '../../../assets/ConsumismoN.svg'

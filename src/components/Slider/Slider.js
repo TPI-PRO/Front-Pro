@@ -7,7 +7,7 @@ import earth from '../../assets/earth5.svg';
 
 import falsos from '../../assets/FalsosN.svg';
 import { Grid } from '@material-ui/core';
-import { Link,withRouter } from 'react-router-dom';
+//import { Link,withRouter } from 'react-router-dom';
 import postconsumo from '../../assets/Post consumoN.svg';
 import responsable from '../../assets/HábitosN.svg';
 

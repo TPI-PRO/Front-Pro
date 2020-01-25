@@ -1,0 +1,32 @@
+.areas_img{
+    background-color:#d9403d;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 170px;
+}
+
+
+.areas-text{
+    font-family: Lucida;
+    width: 500px;
+    text-align: left;
+    font-size: 28px;
+    text-align: center;
+    margin-top: -25px;
+    /*margin-left: 105px;*/
+    color: black;
+}
+.areas-text_2{
+    padding-top: 80px ;
+}
+
+.problem_icon{
+    margin-top: 420px;
+    margin-left: 250px;
+    text-align: center;
+    background-color: #d9403d;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
