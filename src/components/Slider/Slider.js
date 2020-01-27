@@ -5,14 +5,15 @@ import consumo from '../../assets/ConsumoN.svg';
 import consumismo from '../../assets/ConsumismoN.svg';
 import earth from '../../assets/earth5.svg';
 
+import Fab from '@material-ui/core/Fab';
 import falsos from '../../assets/FalsosN.svg';
 import { Grid } from '@material-ui/core';
 //import { Link,withRouter } from 'react-router-dom';
 import postconsumo from '../../assets/Post consumoN.svg';
 import responsable from '../../assets/HábitosN.svg';
+import SpaIcon from '@material-ui/icons/Spa';
 
-
-
+import { withRouter } from 'react-router-dom';
 
 class Slider extends Component{
    constructor(props) {
@@ -22,7 +23,12 @@ class Slider extends Component{
       this.change = this.change.bind(this);
    }
 
-   change(){this.props.history.push("/")}
+   change(){
+      if (document.getElementById("i3").checked === true){
+         this.props.history.push("/consumismo_init")
+      }
+      
+   }
 
    render(){
       return (
@@ -33,7 +39,12 @@ class Slider extends Component{
             <input type="radio" name="images" id="i4"/>
             <input type="radio" name="images" id="i5" />
             <input type="radio" name="images" id="i6"/>
-            
+
+            <div className="button">
+               <Fab color="inherit" size={'small'}>
+                  <SpaIcon color="primary" onClick={this.change}/>
+               </Fab>
+            </div>
             <Grid item className="slide-img" id="one">
                <img src={earth} alt="two"></img>
             </Grid>
@@ -72,4 +83,4 @@ class Slider extends Component{
    
 }
 
-export default  Slider;
+export default  withRouter(Slider);

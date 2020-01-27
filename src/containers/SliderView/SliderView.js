@@ -41,11 +41,7 @@ class SliderView extends Component{
                 </Grid>
                     
                 <Grid item xs={11} sm={10} md={6} align="center" >
-                    <div className="button">
-                        <Fab color="inherit" size={'small'}>
-                            <SpaIcon color="primary" onClick={this.change}/>
-                        </Fab>
-                    </div>
+                    
                     <Slider/>
                 </Grid>
             </Grid>
