@@ -17,6 +17,7 @@ import Consumismo_areaN from './containers/Consumismo/AreaNView/AreaNView'
 import Consumismo_areaTE from './containers/Consumismo/AreaTEView/AreaTEView'
 import Consumismo_who from './containers/Consumismo/WhoView/WhoView';
 import Consumismo_why from './containers/Consumismo/WhyView/WhyView';
+import Consumismo_cause from './containers/Consumismo/CauseView/CauseView';
 
 const theme = createMuiTheme({
     palette: { secondary: {main: '#078005'}, primary: {main: '#83bf82'}}
@@ -39,6 +40,7 @@ function App() {
                     <Route path="/consumismo_areaG" component={Consumismo_areaG}/>
                     <Route path="/consumismo_areaN" component={Consumismo_areaN}/>
                     <Route path="/consumismo_areaP" component={Consumismo_areaP}/>
+                    <Route path="/consumismo_cause" component={Consumismo_cause}/>
                     <Route path="/who" component={Consumismo_who}/>
                     <Route path="/why" component={Consumismo_why}/>
                 </Switch>

@@ -46,7 +46,7 @@ class ProblemView extends Component{
                     <Grid container direction={"column"} className="containerOpt" align="left">
                         <Grid item xs={4} md={4} className="square" align="center">
                             <div id="hallo">
-                                <a id="button" href="hallo.com">Areas</a>
+                                <a id="button" href="consumismo_areaT">Areas</a>
                             </div>
                         </Grid>
                     </Grid>

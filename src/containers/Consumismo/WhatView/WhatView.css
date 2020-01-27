@@ -5,7 +5,9 @@
 /* questions*/
 .what_title{
     color: #078005;
-    font-family: Lucida;
+    /*font-family: 'ABeeZee';*/
+    font-family: 'FuturaHand';
+    src: local('FuturaHand'), url(../../../FuturaHand.ttf) format('ttf');
     font-size: 42px;
 }
 .what-text_2{
@@ -13,7 +15,9 @@
 }
 
 .what-text{
-    font-family: Lucida;
+    
+    font-family: 'FuturaHand';
+    src: local('FuturaHand'), url(../../../FuturaHand.ttf) format('ttf');
     width: 580px;
     text-align: left;
     font-size: 30px;

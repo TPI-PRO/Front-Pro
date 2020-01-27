@@ -33,6 +33,21 @@ class AreasView extends Component{
                         <div className="areaT_subtitle">
                             <h3>Textil</h3>
                         </div>
+                        
+                        <Grid container direction="row">
+                            <Grid item xs={4} sm={4} md={4}>
+                                lugar 1
+                            </Grid>
+                         
+                            <Grid item xs={4} sm={4} md={4}>
+                                lugar 2
+                            </Grid>
+                                
+                            <Grid item xs={4} sm={4} md={4}>
+                                lugar 3
+                            </Grid>
+                        </Grid>
+
                         <div className="areaT_icon">
                             <PlayArrowIcon color={'disabled'} />    
                         </div>

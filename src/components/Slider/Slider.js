@@ -43,10 +43,7 @@ class Slider extends Component{
             </Grid>
 
             <Grid item className="slide-img" id="three">
-               
-               <Grid item>
-                  <img src={consumismo} alt="two"></img>
-               </Grid>
+               <img src={consumismo} alt="two"></img>
             </Grid>
             
             <Grid item className="slide-img" id="four">

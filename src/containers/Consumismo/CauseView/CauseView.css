@@ -1,18 +1,12 @@
-.areas_img{
-    background-color:#d9403d;
-    height: 250px;
-    width: 250px;
-    border-radius: 20px;
-    margin-top: 170px;
-}
 
-.areaT_title{
+
+.cause_title{
     text-align: center;
     font-size: 40px;
     color: #078005;
     width: 600px;
 }
-.areaT-text{
+.cause-text{
     font-family: Lucida;
     width: 600px;
     text-align: center;
@@ -23,19 +17,25 @@
     color: black;
 }
 
-.areaT_subtitle{
+.cause_subtitle{
     text-align: center;
     font-size: 38px;
-    margin-top: -30px;
+    margin-top: 100px;
     color: #078005;
 }
-
-.areaT_icon{
-    margin-top: 420px;
-    margin-left: 280px;
+.cause_text2{
+    width: 500px;
     text-align: center;
-    background-color: #d9403d;
-    height: 60px;
-    width: 60px;
-    border-radius: 30px;
+    font-size: 30px;
+    padding-left: 80px;
 }
+
+.cause_video{
+    padding-top: 140px;
+}
+.cause_icon{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
