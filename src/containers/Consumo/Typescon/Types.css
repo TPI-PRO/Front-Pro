@@ -1,0 +1,9 @@
+#rotada1{
+    transform: rotate(270deg);
+    cursor: pointer;
+}
+
+#rotada2{
+    transform: rotate(90deg);
+    cursor: pointer;
+}

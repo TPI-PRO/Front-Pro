@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 import {Grid} from '@material-ui/core';
 import icono from '../../../assets/icono.svg';
-import image from '../../../assets/Consumo/Consumoicono.svg'
-import Navbar from '../../../components/NavBar/Navbar'
+import image from '../../../assets/Consumo/Consumoicono.svg';
+import Navbar from '../../../components/NavBar/Navbar';
 import './Initcon.css'
 
 import info from '../../../assets/Consumo/Consumoq.svg';
