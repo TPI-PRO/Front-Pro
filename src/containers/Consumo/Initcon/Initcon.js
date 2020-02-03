@@ -31,7 +31,7 @@ class Initcon extends Component{
                     </div>
                     
                     <div className="init_log">
-                        <Link  to="/consumismo_what">
+                        <Link  to="/consumo_what">
                             <img src={info} alt="menu"/>
                         </Link>
                     </div>

@@ -1,4 +1,5 @@
 import React,{Component}   from 'react';
+import { Link } from "react-router-dom";
 
 import {Grid} from '@material-ui/core';
 import icono from '../../../assets/icono.svg';
@@ -6,7 +7,7 @@ import image from '../../../assets/ConsumismoN.svg'
 import Navbar from '../../../components/NavBar/Navbar'
  
 
-import info from '../../../assets/informacion2.svg';
+import info from '../../../assets/Consumismo/Consumismo.svg';
 import './InitView.css'
 class InitView extends Component{
     constructor(props) {
@@ -28,9 +29,10 @@ class InitView extends Component{
                     <div className="text">
                         ¿Que quieres aprender hoy?
                     </div>
-                    
-                    <div className="init_button">
-                        <img src={info} alt="menu" className="init_logo"/>
+                    <div className="init_logo">
+                        <Link  to="/consumismo_what">
+                            <img src={info} alt="menu"/>
+                        </Link>
                     </div>
                     <div className="init_text2">
                         ¿Que?

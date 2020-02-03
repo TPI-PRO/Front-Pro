@@ -1,5 +1,7 @@
 import React,{Component}   from 'react'; 
-import './Options.css'
+import { Link } from "react-router-dom";
+
+import './Optionsc.css'
 
 import Grid from '@material-ui/core/Grid';
 
@@ -14,18 +16,23 @@ class Options extends Component{
             <Grid container direction={"column"} className="containerOpt" align="left">
                 <Grid item xs={4} md={4} className="square" align="center">
                     <div id="hallo">
-                        <a id="button" href="/consumismo_problem">Consumidor</a>
+                        <Link  style={{ textDecoration: 'none' }}>
+                        <text id="button">Consumidor</text>
+                        </Link> 
                     </div>
                 </Grid>
                 <Grid item xs={4} md={4} className="square" align="center">
                     <div id="hallo">
-                        <a id="button" href="/consumismo_cause">Areas</a>
+                        <Link to="/consumo_areas" style={{ textDecoration: 'none' }}>
+                            <text id="button">Areas</text>
+                        </Link>
                     </div>
-                    
                 </Grid>
                 <Grid item xs={4} md={4} className="square" align="center">
                     <div id="hallo">
-                        <a id="button" href="hallo.com">Tipos de compras</a>
+                    <Link  style={{ textDecoration: 'none' }}>
+                            <text id="button">Tipos de compras</text>
+                    </Link>
                     </div>
                 </Grid>
             </Grid>

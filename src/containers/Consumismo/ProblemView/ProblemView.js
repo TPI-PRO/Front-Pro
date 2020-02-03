@@ -46,7 +46,7 @@ class ProblemView extends Component{
                 <Grid item xs={11} sm={11} md={6} align="center">
                     <Grid container direction={"column"} className="containerOpt" align="left">
                         <Grid item xs={4} md={4} className="square" align="center">
-                            <div id="hallo">
+                            <div id="halle">
                                 <Link to="consumismo_areaT" style={{ textDecoration: 'none' }}>
                                     <text id="button">Areas</text>
                                  </Link>

@@ -1,0 +1,27 @@
+h3{
+    color: #078005;
+    font-family: 'FuturaHand';
+    src: local('FuturaHand'), url(../../../FuturaHand.ttf) format('ttf');
+    font-size: 42px;
+}
+
+h4{
+    color: #078005;
+    font-family: 'FuturaHand';
+    src: local('FuturaHand'), url(../../../FuturaHand.ttf) format('ttf');
+    font-size: 32px;
+}
+
+#rotada{
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.what-con{
+    font-family: 'FuturaHand';
+    src: local('FuturaHand'), url(../../../FuturaHand.ttf) format('ttf');
+    text-align: center;
+    font-size: 30px;
+    margin-left: 7%;
+    margin-top: 5%;
+}

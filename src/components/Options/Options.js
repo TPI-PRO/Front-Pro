@@ -15,14 +15,14 @@ class Options extends Component{
         return(
             <Grid container direction={"column"} className="containerOpt" align="left">
                 <Grid item xs={4} md={4} className="square" align="center">
-                    <div id="hallo">
+                    <div id="halle">
                         <Link to="/consumismo_problem" style={{ textDecoration: 'none' }}>
                         <text id="button">Problemáticas</text>
                         </Link>  
                     </div>
                 </Grid>
                 <Grid item xs={4} md={4} className="square" align="center">
-                    <div id="hallo">
+                    <div id="halle">
                         <Link to="/consumismo_cause" style={{ textDecoration: 'none' }}>
                             <text id="button">Causas</text>
                         </Link>
@@ -30,7 +30,7 @@ class Options extends Component{
                     
                 </Grid>
                 <Grid item xs={4} md={4} className="square" align="center">
-                    <div id="hallo">
+                    <div id="halle">
                         <Link style={{ textDecoration: 'none' }}>
                             <text id="button">Aumento y Disminucion</text>
                         </Link>
