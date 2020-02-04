@@ -1,0 +1,24 @@
+{
+  "entradas":[
+    {
+    "titulo":"Recordada",
+    "parrafo":"La persona no ha pensado en la compra pero cuando ve el producto recuerda que lo necesita y se lo lleva",
+    "imagen":"./Recordada.svg"
+  },
+    {
+    "titulo":"Racional",
+    "parrafo":"La compra se efectúa por su marca o necesidad adaptandose al perfil que exige el consumidor..",
+    "imagen":"./Racional.svg"
+  },
+  {
+    "titulo":"Impulsiva",
+    "parrafo":"El consumidor tiene la intención de compra pero siempre espera el momento indicado para realizarla.",
+    "imagen":"./Impulsiva.svg"
+  },
+  {
+    "titulo":"Sugerida",
+    "parrafo":"La persona ve un producto nuevo y realiza la compra para probarlo.",
+    "imagen":"./Sugerida.svg"
+  }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "name": "tpi",
+  "name": "tpoi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,5 +32,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "1. npm install 2. npm start ## Metodo 2: 1. docker-compose build 2. docker-compose up",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TPI-PRO/Front-Pro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TPI-PRO/Front-Pro/issues"
+  },
+  "homepage": "https://github.com/TPI-PRO/Front-Pro#readme"
 }

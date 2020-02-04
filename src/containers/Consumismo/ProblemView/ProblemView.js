@@ -1,4 +1,5 @@
 import React,{Component}   from 'react';
+import {Link} from "react-router-dom";
 
 import {Grid} from '@material-ui/core';
 import icono from '../../../assets/icono.svg';
@@ -45,8 +46,10 @@ class ProblemView extends Component{
                 <Grid item xs={11} sm={11} md={6} align="center">
                     <Grid container direction={"column"} className="containerOpt" align="left">
                         <Grid item xs={4} md={4} className="square" align="center">
-                            <div id="hallo">
-                                <a id="button" href="consumismo_areaT">Areas</a>
+                            <div id="halle">
+                                <Link to="consumismo_areaT" style={{ textDecoration: 'none' }}>
+                                    <text id="button">Areas</text>
+                                 </Link>
                             </div>
                         </Grid>
                     </Grid>

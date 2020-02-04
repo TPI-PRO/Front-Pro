@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 import {Grid} from '@material-ui/core';
 import icono from '../../../assets/icono.svg';
-import image from '../../../assets/ConsumismoN.svg'
-import Navbar from '../../../components/NavBar/Navbar'
- 
+import image from '../../../assets/Consumo/Consumoicono.svg';
+import Navbar from '../../../components/NavBar/Navbar';
+import './Initcon.css'
 
-import info from '../../../assets/Consumismo/Consumismo.svg';
-import './InitView.css'
-class InitView extends Component{
+import info from '../../../assets/Consumo/Consumoq.svg';
+
+class Initcon extends Component{
     constructor(props) {
         super(props)
         this.state = {}
@@ -29,8 +29,9 @@ class InitView extends Component{
                     <div className="text">
                         ¿Que quieres aprender hoy?
                     </div>
-                    <div className="init_logo">
-                        <Link  to="/consumismo_what">
+                    
+                    <div className="init_log">
+                        <Link  to="/consumo_what">
                             <img src={info} alt="menu"/>
                         </Link>
                     </div>
@@ -40,10 +41,7 @@ class InitView extends Component{
                 </Grid>
                     
                 <Grid item xs={11} sm={10} md={6} align="center" >
-                    
-                    <div className="init_image">
-                        <img src={image} alt="hallo"></img>
-                    </div>
+                    <img src={image} alt="hallo" className="initi"></img>
                 </Grid>
             </Grid>
         );
@@ -51,4 +49,4 @@ class InitView extends Component{
 }
  
  
-export default InitView ;
+export default Initcon ;

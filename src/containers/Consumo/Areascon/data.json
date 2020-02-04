@@ -1,0 +1,29 @@
+{
+  "entradas":[
+    {
+    "titulo":"",
+    "parrafo":"Para satisfacer las necesidades se abre una amplia gama de alternativas como las siguientes:",
+    "imagen":"./Colores.svg"
+  },
+    {
+    "titulo":"Transporte",
+    "parrafo":"El desarrollo y crecimiento de las ciudades y las interconexiones entre ellas ha generado el surgimiento de una nueva necesidad, la movilización optima, en donde se abre una gama de posibilidades para satisfacer esta necesidad, como lo son, transporte público,transporte privado, aviones, trenes y demas.",
+    "imagen":"./Carro.svg"
+  },
+  {
+    "titulo":"Tecnologia",
+    "parrafo":"La gobalización de las formas de comunicación y la economía actual han convertido a las diferentes tecnologías en la mejor herramienta para mantener las relaciones interpersonales, actualizarse sobre los sucesos a nivel mundial, generar estatus, entre muchos otros..",
+    "imagen":"./Tecnologia.svg"
+  },
+  {
+    "titulo":"Textil",
+    "parrafo":"Debido a las normas sociales que se rigen en la actualidad, se ha generado la necesidad de usar fibras que cubran los cuerpos de las personas. Con lo anterior se genera la industria textil, siendo una de las areas de consumo masivo.",
+    "imagen":"./Textil.svg"
+  },
+  {
+    "titulo":"Alimentos",
+    "parrafo":"La necesidad de comida disponible fomentá el consumo de productos congelados, no perecederos o con lapsos de descomposición prolongada.Igualmente se incita el consumo de comidas que disminuyan los tiempos de cocción, así como actividades de elaboración.",
+    "imagen":"./Alimentos.svg"
+  }
+  ]
+}
