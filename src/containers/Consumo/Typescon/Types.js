@@ -56,8 +56,8 @@ class Types extends Component{
                     <Grid container justify="center">
                     <h4>{mydata.entradas[this.state.number].titulo}</h4>
                     </Grid>
-                    <Grid container justify="center">
-                    {mydata.entradas[this.state.number].parrafo}
+                    <Grid container justify="center" align="center">
+                    <p>{mydata.entradas[this.state.number].parrafo}</p>
                     </Grid>
                 </Grid>
 

@@ -16,28 +16,26 @@ class SliderView extends Component{
         super(props)
         this.state = {
         }
-        this.change = this.change.bind(this);
     }
-    change(){
-        this.props.history.push("/what")
-    }
+   
 
     render(){
         return(
             <Grid container >
-                <Grid item xs={1} sm={1} md={1}>
+                <Grid item xs={1} sm={1} md={1} lg={1}>
                     <div className="title"><img src={icono} alt="hallo"></img></div>
                     <Navbar/>
                 </Grid>
 
-                <Grid item xs={0} sm={0} md={5} align="center">
+                <Grid item xs={false} sm={false} md={5} lg={5} align="center">
                     <div className="text">
                         <h3>BIENVENIDO</h3>
                         ¿Que quieres aprender hoy?
                     </div>
                 </Grid>
                     
-                <Grid item xs={11} sm={10} md={6} align="center" >
+                
+                <Grid container lg={6} justify="center"  >
                     <Slider/>
                 </Grid>
             </Grid>

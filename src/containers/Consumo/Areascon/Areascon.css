@@ -6,9 +6,10 @@ h3{
 }
 
 h4{
-    color: #078005;
+    
     font-family: 'FuturaHand';
     src: local('FuturaHand'), url(../../../FuturaHand.ttf) format('ttf');
+    color: #078005;
     font-size: 32px;
 }
 
@@ -16,6 +17,18 @@ h4{
     transform: rotate(180deg);
     cursor: pointer;
 }
+
+
+.areas img{
+    width: 370px;
+    height: 370px;
+}
+
+.consumo img{
+    width: 300px;
+    height: 250px;
+}
+
 
 .what-con{
     font-family: 'FuturaHand';

@@ -1,19 +1,19 @@
 {
     "entradas":[
       {
-       "enlace":"", 
+       "enlace":"/slide", 
       "imagen":"./earth5.svg"
     },
       {
-      "enlace":"/consumo_init", 
+      "enlace":"/consumo_what", 
       "imagen":"./ConsumoN.svg"
     },
     {
-     "enlace":"/consumismo_init", 
+     "enlace":"/consumismo_what", 
       "imagen":"./ConsumismoN.svg"
     },
     {
-      "enlace":"/falsos_init", 
+      "enlace":"/falsos_what", 
       "imagen":"./FalsosN.svg"
     },
     {

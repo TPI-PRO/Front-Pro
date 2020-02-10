@@ -24,30 +24,30 @@ class Slider extends Component{
    render(){
       const imagen =require.context('../../assets/General', true);
       return (
-         <Grid container direction="column">
-            <Grid item className="slide-img">
+         <Grid container direction="column" justify="center">
+            <Grid item className="slide-img" align="center">
                <Link to={mydata.entradas[this.state.number].enlace}>
                <img src={imagen(mydata.entradas[this.state.number].imagen)}  alt="Prueba"></img>
                </Link> 
             </Grid>
             <Grid container spacing={1} justify="center">
                <Grid item >
-                  <span class="dot" id="0" onClick={()=>this.change(0)}></span>
+                  <span className="dot"  onClick={()=>this.change(0)}></span>
                </Grid>
                <Grid item>
-                  <span class="dot" id="1" onClick={()=>this.change(1)}></span>
+                  <span className="dot"  onClick={()=>this.change(1)}></span>
                </Grid>
                <Grid item >
-                  <span class="dot" id="2" onClick={()=>this.change(2)}></span>
+                  <span className="dot"  onClick={()=>this.change(2)}></span>
                </Grid>
                <Grid item >
-                  <span class="dot" id="3" onClick={()=>this.change(3)}></span>
+                  <span className="dot"  onClick={()=>this.change(3)}></span>
                </Grid>
                <Grid item>
-                  <span class="dot" id="4" onClick={()=>this.change(4)}></span>
+                  <span className="dot"  onClick={()=>this.change(4)}></span>
                </Grid>
                <Grid item>
-                  <span class="dot" id="5" onClick={()=>this.change(5)}></span>
+                  <span className="dot"  onClick={()=>this.change(5)}></span>
                </Grid>
             </Grid>
             
