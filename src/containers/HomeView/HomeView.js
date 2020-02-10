@@ -1,4 +1,5 @@
 import React,{Component}   from 'react';
+import { Link } from "react-router-dom";
 
 import Button from '@material-ui/core/Button';
 import {Grid} from '@material-ui/core';
@@ -18,14 +19,27 @@ class HomeView extends Component{
             <div className="home">
                 <div><h1 className="home-title">ECO</h1></div>
                 <div><h2 className="home-stitle">CONCIENCIA</h2></div>
-                <Grid container className="field_log">
-                    <Grid item xs={4} md={4} align="center">
-                        <Button variant="contained" color="secondary">Ingresar</Button>
+                <Grid container spacing={3} direction="column">
+                <Grid container spacing={8} justify="center">
+                    <Grid item >
+                        <Link  to="/login">
+                            <Button variant="contained" color="secondary">Ingresar</Button>
+                        </Link>
                     </Grid>
-                    <Grid  item xs={4} md={4} align="center">
-                        <Button variant="contained" color="primary">Registrar</Button>
-                    </Grid>
+                    <Grid  item>
+                         <Link  to="/register">
+                            <Button variant="contained" color="primary">Registrar</Button>
+                        </Link>  
+                     </Grid> 
                 </Grid>
+                <Grid  item   align="center">
+                        <Link  to="/slide">
+                            <Button variant="contained">Usuario Invitado</Button>
+                        </Link>     
+                </Grid>
+
+                </Grid>
+                
             </div>
         );
     }

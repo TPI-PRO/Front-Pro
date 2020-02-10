@@ -35,7 +35,7 @@ class Types extends Component{
             <Grid container>
                 <Grid item xs={0} sm={1} md={1} lg={1} xl={1}>
                     <div className="title"><img src={icono} alt="hallo"></img></div>
-                    <div className="wrap"><Navbar/></div>
+                    <Navbar/>
                 </Grid>
                 <Grid container direction="column" xs={12} sm={11} md={11} lg={11} xl={11}>
                     <Grid container justify="center">

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import {Grid} from '@material-ui/core';
 import icono from '../../../assets/icono.svg';
-import image from '../../../assets/ConsumismoN.svg'
+import image from '../../../assets/General/ConsumismoN.svg'
 import Navbar from '../../../components/NavBar/Navbar'
  
 
@@ -22,7 +22,7 @@ class InitView extends Component{
             <Grid container direction="row">
                 <Grid item xs={1} sm={1} md={1}>
                     <div className="title"><img src={icono} alt="hallo"></img></div>
-                    <div className="wrap"><Navbar/></div>
+                    <Navbar/>
                 </Grid>
 
                 <Grid item xs={false} sm={0} md={5} align="center">

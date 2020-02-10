@@ -1,4 +1,5 @@
 import React,{Component}   from 'react';
+import { Link } from "react-router-dom";
 
 import Button from '@material-ui/core/Button';
 import {Grid} from '@material-ui/core';
@@ -40,10 +41,12 @@ class RegisterView extends Component{
 
                         <Grid container className="field_reg">
                             <Grid item xs={4} md={4} align="center">
-                                <Button variant="contained" color="secondary">Google</Button>
+                                 <Link  to="/login">
+                                    <Button variant="contained" color="secondary">Ingresar</Button>
+                                 </Link> 
                             </Grid>
                             <Grid  item xs={4} md={4}>
-                            <Button variant="contained" color="primary">Registrar</Button>
+                                    <Button variant="contained" color="primary">Registrar</Button>
                             </Grid>
                         </Grid>
                     </Grid>
