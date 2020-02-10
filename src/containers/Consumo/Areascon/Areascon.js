@@ -35,7 +35,6 @@ class Areascon extends Component{
     render(){
         const imagen =require.context('../../../assets/Consumo', true);
         return(
-            <div>
                 <Grid container>
                     <Grid item xs={12} sm={12} md={6} lg={6} xl={6}  >
                         <div className="title-nav"><img src={icono} alt="hallo"></img></div>
@@ -73,7 +72,6 @@ class Areascon extends Component{
                     </Grid>
                     
                  </Grid>
-            </div>
         );
     }
 }

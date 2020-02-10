@@ -1,0 +1,25 @@
+{
+    "entradas":[
+      {
+        "titulo":"",
+        "parrafo":"Exiten muchos productos que son perfectos ejemplos de lo que son los falsos verdes y que se usan cotidianamente",
+        "imagen":"./Desconocido.svg"
+      },
+      {
+      "titulo":"Vidrio reciclado",
+      "parrafo":"Se generan durante su fabricación: bióxido de carbono y óxido de nitrógeno (cantidades altas) cadmio y plomo (metales pesados). Además, Las emisiones que se lanza al aire durante su fabricación presenta daño potencial a la salud y a los ecosistemas.",
+      "imagen":"./Vidrio.svg"
+    },
+    {
+        "titulo":"Bolsa de papel",
+        "parrafo":"Su producción consume 36 veces más electricidad y produce 580 veces el volumen de desperdicio de agua ( con sustancias contaminantes como cloro) más el gas metano producido en su descomposición si se deja botado en un tiradero de basura.",
+        "imagen":"./Bolsas.svg"
+      },
+      {
+        "titulo":"Algodon Organico",
+        "parrafo":"La naturaleza del cultivo de algodón requiere mucha agua, este tipo de algodón usa menos pesticidas que el normal, pero aun asi contamina el medio ambiente, ademas de los tintes para dar color al producto.",
+        "imagen":"./Algodon.svg"
+      }
+      
+    ]
+  }

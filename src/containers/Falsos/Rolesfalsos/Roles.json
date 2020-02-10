@@ -1,0 +1,14 @@
+{
+    "entradas":[
+      {
+      "titulo":"Marketing",
+      "parrafo":"Busca atraer a estos consumidores por medio de adjetivos verdes, aún así, deja un vacio en el resto de procesos, dandoles poca relevanciaen la publicidad. Esta desinformación es nociva ya que el consumidor, opta por adquirir más de lo que necesita ya que “no va a generar un impacto”.",
+      "imagen":"./Marketing.svg"
+    },
+    {
+        "titulo":"Consumidor",
+        "parrafo":"Debe estar alerta para poder discernir sobre sus verdaderas necesidades, entendiendo que al adquirir un producto se vuelve responsable sobre el punto dondelo aduqiere, su vida útil, su uso y posconsumo.",
+        "imagen":"./Consumidor.svg"
+      }
+    ]
+  }
