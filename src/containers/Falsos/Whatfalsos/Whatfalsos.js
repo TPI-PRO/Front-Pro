@@ -1,16 +1,15 @@
 import React,{Component}   from 'react'; 
-import './WhyView.css'
 
 /*import Square from '../../components/Square/Square';*/
 import Grid from '@material-ui/core/Grid';
 import icono from '../../../assets/icono.svg';
 import Navbar from '../../../components/NavBar/Navbar'
-import Options from '../../../components/Options/Options'
+import Options from '../../../components/OptionsFalsos/Options'
 
 
 
 
-class WhyView extends Component{
+class Whatfalsos extends Component{
 
     state={
 
@@ -21,19 +20,23 @@ class WhyView extends Component{
             <Grid container direction="row">
                 
                 <Grid item xs={1} sm={1} md={1}>
-                    <div className="title"><img src={icono} alt="hallo"></img></div>
+                    <div className="title-nav"><img src={icono} alt="hallo"></img></div>
                     <Navbar/>
                 </Grid>
 
                 <Grid item xs={false} sm={0} md={5} align="left">
                     
-                    <div className="textW">
-                        <div className="title">
-                            <h3>POR QUÉ</h3>
+                    <div className="what-text">
+                        <div className="what_title">
+                            <h3>QUÉ ES</h3>
                         </div>
-                        Los factores que fomentan el consumo
-                        surgen principalmente de las diferentes
-                        necesidades (fisiológicas, sociales)
+                        <div className="what-text_2">
+                        En el punto donde las personas ya han
+                        tomado conciencia, el márketing va a tomar
+                        partido de esta nueva clase de consumidores
+                        y va a optar por resaltar los adjetivos
+                        “verdes” para atraer a las personas.
+                        </div>
                     </div>
                 </Grid>
                 
@@ -45,4 +48,4 @@ class WhyView extends Component{
     }
 }
 
-export default WhyView ;
+export default Whatfalsos ;

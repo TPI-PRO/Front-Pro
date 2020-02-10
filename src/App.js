@@ -21,7 +21,11 @@ import Consumismo_cause from './containers/Consumismo/CauseView/CauseView';
 import Consumo_init from './containers/Consumo/Initcon/Initcon';
 import Consumo_what from './containers/Consumo/Whatcon/Whatcon';
 import Consumo_areas from './containers/Consumo/Areascon/Areascon';
-import Consumo_types from './containers/Consumo/Typescon/Types'
+import Consumo_types from './containers/Consumo/Typescon/Types';
+import Initfalsos from './containers/Falsos/Initfalsos/Initfalsos';
+import Whatfalsos from './containers/Falsos/Whatfalsos/Whatfalsos';
+import Rolesfalsos from './containers/Falsos/Rolesfalsos/Rolesfalsos';
+import Productosfalsos from './containers/Falsos/Productosfalsos/Productosfalsos'
 
 const theme = createMuiTheme({
     palette: { secondary: {main: '#078005'}, primary: {main: '#83bf82'}}
@@ -49,6 +53,10 @@ function App() {
                     <Route path="/consumo_what" component={Consumo_what}/>
                     <Route path="/consumo_areas" component={Consumo_areas}/>
                     <Route path="/consumo_types" component={Consumo_types}/>
+                    <Route path="/falsos_init" component={Initfalsos}/>
+                    <Route path="/falsos_what" component={Whatfalsos}/>
+                    <Route path="/falsos_roles" component={Rolesfalsos}/>
+                    <Route path="/falsos_productos" component={Productosfalsos}/>
                     <Route path="/who" component={Consumismo_who}/>
                     <Route path="/why" component={Consumismo_why}/>
                 </Switch>

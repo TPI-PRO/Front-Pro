@@ -5,10 +5,9 @@ import icono from '../../../assets/icono.svg';
 import Navbar from '../../../components/NavBar/Navbar';
 import flecha from '../../../assets/Consumo/Flecha.svg'
 
-import mydata from './tdata.json'
-import './Types.css'
+import mydata from './Productos.json'
 
-class Types extends Component{
+class Productosfalsos extends Component{
 
     constructor(props) {
         super(props)
@@ -30,7 +29,7 @@ class Types extends Component{
     }
 
     render(){
-        const imagen =require.context('../../../assets/Consumo', true);
+        const imagen =require.context('../../../assets/Falsos', true);
         return(
             <Grid container>
                 <Grid item xs={0} sm={1} md={1} lg={1} xl={1}>
@@ -39,7 +38,7 @@ class Types extends Component{
                 </Grid>
                 <Grid container direction="column" xs={12} sm={11} md={11} lg={11} xl={11}>
                     <Grid container justify="center">
-                        <h3>TIPOS DE COMPRA</h3>
+                        <h3>Productos</h3>
                     </Grid>
                     <Grid container  justify="center">
                         <Grid container xs={3} lg={3} justify="center">
@@ -66,4 +65,4 @@ class Types extends Component{
     }
 }
 
-export default Types ;
+export default Productosfalsos ;

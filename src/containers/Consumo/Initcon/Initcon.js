@@ -22,7 +22,7 @@ class Initcon extends Component{
             <Grid container direction="row">
                 <Grid item xs={1} sm={1} md={1}>
                     <div className="title"><img src={icono} alt="hallo"></img></div>
-                    <div className="wrap"><Navbar/></div>
+                    <Navbar/>
                 </Grid>
 
                 <Grid item xs={false} sm={0} md={5} align="center">

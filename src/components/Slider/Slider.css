@@ -1,100 +1,15 @@
-.container{
-    margin: 0 auto;
-    position: relative;
-}
-
-.slide-img{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color:white;
+    border:1px solid black; 
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
 
 .slide-img img{
     width: 600px;
     height: 600px;
 }
 
-#i1, #i2, #i3, #i4, #i5, #i6{
-    display: none;
-}
-
-.nav{
-    width: 100%;
-    height: 11px;
-    bottom: 12%;
-    padding-top: 575px;
-    position: relative;
-    text-align: center;
-    z-index: 99;
-}
-
-.dots{
-    top:-5px;
-    position: relative;
-    width: 13px;
-    height: 13px;
-    margin: 0 4px ;
-    border-radius: 50% ;
-    display: inline-block;
-    background: rgba(0,0,0,.6);
-}
-
-.slide-img{
-    z-index: -1;
-}
-/*
-#i1:checked ~ #one,
-#i2:checked ~ #two,
-#i3:checked ~ #three,
-#i4:checked ~ #four,
-#i5:checked ~ #five,
-#i6:checked ~ #six{
-    z-index: 9;
-    opacity: 1;
-}
-*/
-#i1:checked ~ #two, #i2:checked ~ #one{opacity: 0; z-index: 9}
-#i1:checked ~ #three, #i3:checked ~ #one{opacity: 0; z-index: 9}
-#i1:checked ~ #four, #i4:checked ~ #one{opacity: 0; z-index: 9}
-#i1:checked ~ #five, #i5:checked ~ #one{opacity: 0; z-index: 9}
-#i1:checked ~ #six, #i6:checked ~ #one{opacity: 0; z-index: 9}
-
-#i2:checked ~ #three, #i3:checked ~ #two{opacity: 0; z-index: 9}
-#i2:checked ~ #four, #i4:checked ~ #two{opacity: 0; z-index: 9}
-#i2:checked ~ #five, #i5:checked ~ #two{opacity: 0; z-index: 9}
-#i2:checked ~ #six, #i6:checked ~ #two{opacity: 0; z-index: 9}
-
-#i3:checked ~ #four, #i4:checked ~ #three{opacity: 0; z-index: 9}
-#i3:checked ~ #five, #i5:checked ~ #three{opacity: 0; z-index: 9}
-#i3:checked ~ #six, #i6:checked ~ #three{opacity: 0; z-index: 9}
-
-#i4:checked ~ #five, #i5:checked ~ #four{opacity: 0; z-index: 9}
-#i4:checked ~ #six, #i6:checked ~ #four{opacity: 0; z-index: 9}
-
-#i5:checked ~ #six, #i6:checked ~ #five{opacity: 0; z-index: 9}
-
-
-
-
-
-/*
-#i2:checked ~ #two,
-#i3:checked ~ #three,
-#i4:checked ~ #four,
-#i5:checked ~ #five,
-#i6:checked ~ #six{
-    z-index: -1 ;
-    
-}*/
-
-
-
-#i1:checked ~ .nav #dot1,
-#i2:checked ~ .nav #dot2,
-#i3:checked ~ .nav #dot3,
-#i4:checked ~ .nav #dot4,
-#i5:checked ~ .nav #dot5,
-#i6:checked ~ .nav #dot6{
-    background: #ffff;
-}
