@@ -17,15 +17,12 @@ class Whatcon extends Component{
 
     render(){
         return(
-            <Grid container direction="row">
-                
-                <Grid item xs={1} sm={1} md={1}>
-                    <div className="title-nav"><img src={icono} alt="hallo"></img></div>
+            <Grid container spacing={2}>
+                <Grid item xs={1} sm={1} md={1} lg={1}>
+                    <img src={icono} alt="hallo"></img>
                     <Navbar/>
                 </Grid>
-
-                <Grid item xs={false} sm={0} md={5} align="left">
-                    
+                <Grid item xs={false} sm={0} md={5} >
                     <div className="what-text">
                         <div className="what_title">
                             <h3>QUÉ ES</h3>
@@ -38,7 +35,6 @@ class Whatcon extends Component{
                         </div>
                     </div>
                 </Grid>
-                
                 <Grid item xs={11} sm={11} md={6} align="center">
                     <Options/>
                 </Grid>

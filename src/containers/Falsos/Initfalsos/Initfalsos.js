@@ -20,7 +20,7 @@ class Initfalsos
         return(
             
             <Grid container>
-                <Grid item xs={1} sm={1} md={1}>
+                <Grid item xs={1} sm={1} md={1} lg={1} xl={1}>
                     <div className="title"><img src={icono} alt="hallo"></img></div>
                     <Navbar/>
                 </Grid>

@@ -1,4 +1,5 @@
 import React,{Component}   from 'react'; 
+import { Link } from "react-router-dom";
 import './Navbar.css'
 
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
@@ -30,7 +31,6 @@ class NavBar extends Component{
     render(){
         return(
             <div className="navbar">
-                 
                 <Grid container direction="column">
                     <Grid item xs={12} className="icon" align="center">
                         <Fab color="secondary" size={'large'}>
@@ -68,9 +68,13 @@ class NavBar extends Component{
                     </Grid>
 
                     <Grid item xs={12} className="icon" align="center">
+                    <Link to="" style={{ textDecoration: 'none' }}>
                         <Fab color="secondary" size={'large'}>
-                           <Exit/>
+                            
+                            <Exit/>
+                            
                         </Fab>
+                        </Link> 
                         <p className="textIcon">Salir</p>
                     </Grid>
                     

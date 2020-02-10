@@ -30,7 +30,7 @@ class Options extends Component{
                 </Grid>
                 <Grid item xs={4} md={4} className="square" align="center">
                     <div id="hallo">
-                    <Link  style={{ textDecoration: 'none' }}>
+                    <Link to="/consumo_types" style={{ textDecoration: 'none' }}>
                             <text id="button">Tipos de compras</text>
                     </Link>
                     </div>

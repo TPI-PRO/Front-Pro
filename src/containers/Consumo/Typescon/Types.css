@@ -7,3 +7,9 @@
     transform: rotate(90deg);
     cursor: pointer;
 }
+
+p{
+    font-family: 'FuturaHand';
+    src: local('FuturaHand'), url(../../../FuturaHand.ttf) format('ttf');
+    font-size: 20px;
+}
